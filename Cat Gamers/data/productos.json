@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "nombre": "Rascador Torre Arcade",
+    "precio": 45.99,
+    "categoria": "muebles",
+    "imagen": "https://cataas.com/cat?width=400&height=300"
+  },
+  {
+    "id": 2,
+    "nombre": "Juguete Ratón Pixel LED",
+    "precio": 12.50,
+    "categoria": "juguetes",
+    "imagen": "https://cataas.com/cat?width=401&height=300"
+  },
+  {
+    "id": 3,
+    "nombre": "Pienso Gourmet 'Level Up' 2kg",
+    "precio": 18.90,
+    "categoria": "comida",
+    "imagen": "https://cataas.com/cat?width=402&height=300"
+  },
+  {
+    "id": 4,
+    "nombre": "Cama Game Boy Ultra-Soft",
+    "precio": 32.00,
+    "categoria": "muebles",
+    "imagen": "https://cataas.com/cat?width=403&height=300"
+  }
+]

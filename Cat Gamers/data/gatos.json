@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "nombre": "Yoshi",
+    "edad": "2 años",
+    "personalidad": "Juguetón y curioso. Le encanta dormir sobre las consolas tibias.",
+    "imagen": "https://cataas.com/cat?width=404&height=300"
+  },
+  {
+    "id": 2,
+    "nombre": "Zelda",
+    "edad": "1 año",
+    "personalidad": "Tranquila y cariñosa. Experta en cazar plumas e inspeccionar teclados.",
+    "imagen": "https://cataas.com/cat?width=405&height=300"
+  },
+  {
+    "id": 3,
+    "nombre": "Pixel",
+    "edad": "3 meses",
+    "personalidad": "Energía infinita. Le encanta seguir el cursor de las pantallas.",
+    "imagen": "https://cataas.com/cat?width=406&height=300"
+  }
+]
