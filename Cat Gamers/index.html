@@ -4,12 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cat Gamers</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
-    <script src="tienda.js"></script>
-    <script src="reservas.js"></script>
-    <script src="main.js"></script>
+    <header>
+    <nav class="inicio-menu-navegacion">
+            <a href="#inicio" class="logo"><img src="assets/img/logo.svg" alt="foto-logotipo"></a>
+            <ul class="secciones-menu">
+                <li><a href="#quienes-somos"> ¿Quienes Somos?</a></li>
+                <li><a href="#tienda"> Tienda</a></li>
+                <li><a href="#reservas"> Reservas</a></li>
+                <li><a href="#actividades"> Actividades</a></li>
+            </ul>
+        <div class="mensaje-menu">
+            <p class="bienvenidos">¡Bienvenidos a Cat Gamers!</p>
+        </div>
+        <div class="parte-derecha-menu">
+            <button class="menu-hamburguesa" aria-label="Abrir menú navegación">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="35" height="35">
+                    <circle cx="50" cy="50" r="48" fill="#2C1B17"/>
+                    <rect x="25" y="32" width="50" height="6" rx="3" fill="#FFFFFF"/>
+                    <rect x="25" y="47" width="50" height="6" rx="3" fill="#FFFFFF"/>
+                    <rect x="25" y="62" width="50" height="6" rx="3" fill="#FFFFFF"/>
+                </svg>
+            </button>
+            <a href="#carrito" class="icono-carrito" aria-label="Ver carrito de compras">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="#2C1B17" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="9" cy="21" r="1"></circle>
+                    <circle cx="20" cy="21" r="1"></circle>
+                    <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                </svg>
+            </a>
+        </div>
+    </nav>
+    </header>
+    <hr>
+    <script src="js/main.js"></script>
+    <script src="js/tienda.js"></script>
+    <script src="js/reservas.js"></script>
 </body>
 </html>

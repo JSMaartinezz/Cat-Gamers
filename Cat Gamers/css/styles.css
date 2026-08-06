@@ -3,6 +3,13 @@
     margin: 0;
     padding: 0;
 }
+:root {
+    --color-fondo-principal: #F5EBE0;
+    --color-texto-fondo: #2C1B17;
+    --color-primario: #E76F51;
+    --color-secundario: #2A9D8F;
+    --color-tarjetas-contenedores: #FFFFFF;
+}
 html {
     scroll-behavior: smooth;
 }
@@ -10,10 +17,58 @@ body {
     line-height: 1.6;
     background-color: var(--color-fondo-principal);
 }
-.root {
-    --color-fondo-principal: #F5EBE0;
-    --color-texto-fondo: #2C1B17;
-    --color-primario: #E76F51;
-    --color-secundario: #2A9D8F;
-    --color-tarjetas-contenedores: #FFFFFF;
+ /* Menu navegacion */
+ .inicio-menu-navegacion {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+ }
+ .logo {
+    display: flex;
+    width: 70px;
+    height: 70px;
+    max-width: 90px;
+    max-height: 90px;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    transform: translateY(14px);
+ }
+ .mensaje-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    margin: 5px;
+ }
+.bienvenidos {
+    font-family: "Black Ops One", system-ui;
+}
+.parte-derecha-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    gap: 14px;
+    padding: 20px;
+    margin: 5px;
+}
+.secciones-menu {
+    display: none;
+    flex-direction: column;
+    align-items:center;
+    text-align:justify;
+}
+.menu-hamburguesa {
+    display: flex;
+    max-width: 100px;
+    justify-content: center;
+    background: none;
+    border: none;
+}
+.icono-carrito {
+    display: flex;
+    max-width: 70px;
+    justify-content: center;
 }
