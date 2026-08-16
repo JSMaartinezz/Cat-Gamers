@@ -25,6 +25,7 @@ a {
 }
 header {
     position: absolute;
+    width: 100%;
 }
  /* Menu navegacion */
  .inicio-menu-navegacion {
@@ -48,7 +49,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 16px;
+    font-size: 13px;
     margin: 5px;
     transform: translateY(42px);
  }
@@ -81,7 +82,7 @@ header {
     align-items: flex-start;
     padding: 1rem;
     list-style: none;
-    background: rgba(var(--color-texto-fondo-rgb), 0.9);
+    background: rgba(var(--color-texto-fondo-rgb), 1.0);
     color: var(--color-fondo-principal);
     border: 3px solid var(--color-borde-hamburguesa);
     border-radius: 5px;
@@ -89,6 +90,7 @@ header {
     max-height: 250px;
     font-family: 'Fira Sans', sans-serif;
     animation: menuHamburguesa 0.3s;
+    z-index: 5;
 }
 @keyframes menuHamburguesa {
     from {
@@ -111,6 +113,43 @@ header {
     display: flex;
     max-width: 70px;
     justify-content: center;
+}
+/* Seccion Quienes Somos */
+.foto-inicio img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.texto-quienes-somos {
+  display: flex;
+  position: relative;
+}
+.texto-explicativo-quienes-somos {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  text-align:justify;
+  padding: 5px;
+  top: 20%;
+  right: 5%;
+  max-width: 400px;
+  width: 90%;
+  max-height: 45%;
+  background: #F5EBE0;
+  border: 3px solid var(--color-borde-hamburguesa);
+  border-radius: 4px;
+  z-index: 2;
+}
+.ir-adopcion {
+  display: flex;
+  width: 40%;
+  justify-content: center;
+  position:absolute;
+  right: 5%;
+  top: 8%;
+  background: var(--color-borde-hamburguesa);
+  color: var(--color-fondo-principal);
+  font-size: 15px;
 }
 /* Responsividad */
 /* Tablets y pantallas pequeñas (portátiles pequeños) */
