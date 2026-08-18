@@ -1,0 +1,78 @@
+/* Tablets y pantallas pequeñas (portátiles pequeños) */
+@media (min-width: 768px) {
+  header {
+    position: static;
+  }
+  .inicio-menu-navegacion {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+  }
+  .parte-central-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 3rem;
+    padding-bottom: 1rem;
+  }
+  .mensaje-menu {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    font-size: 25px;
+  }
+  .menu-hamburguesa {
+    display: none;
+  }
+  .secciones-menu,
+  .secciones-menu-activado {
+    display: flex;
+    position: static;
+    background: transparent;
+    border: none;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+    list-style: none;
+    height: auto;
+    width: auto;
+    font-size: 17px;
+    gap: 24px;
+    font-family: 'Fira Sans', sans-serif;
+  }
+  .logo {
+    display: flex;
+    width: 120px;
+    height: 120px;
+    max-width: 120px;
+    max-height: 120px;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+  }
+  .icono-carrito {
+    display: flex;
+    max-height: 200px;
+    max-width: 200px;
+    height: 30px;
+    width: 30px;
+    justify-content: flex-end;
+    margin: 10px;
+    align-items: center;
+  }
+  .flechas {
+    display: none;
+  }
+}
+
+/* Portátiles y pantallas medianas (laptops) */
+@media (min-width: 992px) {
+  /* Estilos para portátiles */
+}
+
+/* Ordenadores de escritorio y pantallas grandes */
+@media (min-width: 1200px) {
+  /* Estilos para escritorio */
+}   
