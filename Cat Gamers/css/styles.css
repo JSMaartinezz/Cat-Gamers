@@ -1,8 +1,4 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
+
 :root {
     --color-fondo-principal: #F5EBE0;
     --color-texto-fondo: #2C1B17;
@@ -11,21 +7,28 @@
     --color-primario: #E76F51;
     --color-secundario: #2A9D8F;
     --color-tarjetas-contenedores: #FFFFFF;
+    --color-fondo-gradiante: rgba(143, 95, 59, 1);
+    --color-fondo-gradiante-dorado: rgba(254, 208, 127, 1);
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 html {
     scroll-behavior: smooth;
 }
 body {
-    line-height: 1.6;
-    background-color: var(--color-fondo-principal);
+  line-height: 1.6;
+    background: linear-gradient(145deg, rgba(143, 95, 59, 0.5) 22%, rgba(254, 208, 127, 0.5) 71%);
 }
 a {
     text-decoration: none;
     color: inherit;
 }
 header {
-    position: absolute;
-    width: 100%;
+  width: 100%;
+  background: linear-gradient(145deg, rgba(143, 95, 59, 1) 22%, rgba(254, 208, 127, 1) 71%);
 }
  /* Menu navegacion */
  .inicio-menu-navegacion {
@@ -42,21 +45,21 @@ header {
     max-height: 90px;
     justify-content: center;
     align-items: center;
-    margin: 10px;
-    transform: translateY(14px);
+    margin: 7px;
+    transform: translateY(20px);
  }
  .mensaje-menu {
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 13px;
-    margin: 5px;
-    transform: translateY(42px);
+    transform: translateY(55px);
  }
 .bienvenidos {
     font-family: "Black Ops One", system-ui;
     justify-content: center;
     align-items: center;
+    font-size: 15px;
 }
 .parte-derecha-menu {
     display: flex;
@@ -114,81 +117,135 @@ header {
     max-width: 70px;
     justify-content: center;
 }
-/* Seccion Quienes Somos */
-.foto-inicio img {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-.texto-quienes-somos {
+/* Secciones del body */
+.agrupar-secciones {
   display: flex;
-  position: relative;
+  flex-direction: row;
+  justify-content:center;
+  flex-wrap: wrap;
+  gap: 10px;
+  width: 100%;
+  height: 100%;
 }
+.secciones-fila-medio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  gap: 10px;
+}
+/* Seccion Quienes Somos */
 .texto-explicativo-quienes-somos {
   display: flex;
-  position: absolute;
   flex-direction: column;
+  justify-content: center;
   text-align:justify;
-  padding: 5px;
-  top: 20%;
-  right: 5%;
-  max-width: 400px;
-  width: 90%;
-  max-height: 45%;
+  margin: 5px;
+  padding: 8px;
+  max-width: 350px;
+  width: 100%;
   background: #F5EBE0;
-  border: 3px solid var(--color-borde-hamburguesa);
+  border: 4px solid var(--color-borde-hamburguesa);
   border-radius: 4px;
-  z-index: 2;
 }
 .ir-adopcion {
   display: flex;
   width: 40%;
   justify-content: center;
-  position:absolute;
-  right: 5%;
-  top: 8%;
+  align-items: center;
+  margin: 5px;
   background: var(--color-borde-hamburguesa);
   color: var(--color-fondo-principal);
   font-size: 15px;
 }
+/* Seccion tienda */
 .texto-tienda {
   display: flex;
-  position: absolute;
   flex-direction: column;
+  justify-content:flex-end;
   text-align:left;
-  padding: 5px;
-  top: 50%;
-  right: 5%;
-  max-width: 400px;
-  width: 40%;
-  height: 40%;
-  max-height: 45%;
+  margin: 5px;
+  padding: 8px;
+  max-width: 350px;
+  width: 100%;
   background: var(--color-borde-hamburguesa);
   border: 4px solid var(--color-fondo-principal);
   color: var(--color-fondo-principal);
   border-radius: 4px;
   gap: 20px;
-  z-index: 2;
 }
 .ir-tienda {
   display: flex;
-  width: 50%;
+  width: 60%;
   justify-content: center;
-  position:absolute;
-  right: 45%;
-  top: 15%;
   color: var(--color-borde-hamburguesa);
   background: var(--color-fondo-principal);
-  font-size: 12px;
+  font-size: 15px;
 }
 .ver-carta {
   display: flex;
-  width: 50%;
+  width: 60%;
   justify-content: center;
-  position:absolute;
-  right: 45%;
-  top: 92%;
   color: var(--color-borde-hamburguesa);
   background: var(--color-fondo-principal);
-  font-size: 12px;
+  font-size: 15px;
+}
+/* Seccion adopcion */
+.texto-explicativo-adopcion {
+  display: flex;
+  flex-direction: column;
+  text-align:left;
+  margin: 5px;
+  padding: 8px;
+  max-width: 350px;
+  width: 100%;
+  background: #F5EBE0;
+  border: 3px solid var(--color-borde-hamburguesa);
+  border-radius: 4px;
+}
+/* Seccion actividades */
+.texto-explicativo-actividades {
+  display: flex;
+  flex-direction: column;
+  text-align:left;
+  margin: 5px;
+  padding: 8px;
+  max-width: 350px;
+  width: 100%;
+  background: #F5EBE0;
+  border: 3px solid var(--color-borde-hamburguesa);
+  border-radius: 4px;
+  gap: 10px;
+}
+.ir-actividades {
+  display: flex;
+  justify-content: center;
+  background: var(--color-borde-hamburguesa);
+  color: var(--color-fondo-principal);
+  width: 50%;
+  font-size: 15px;
+}
+/* Seccion contacto */
+.texto-explicativo-contacto {
+  display: flex;
+  flex-direction: column;
+  text-align:left;
+  margin: 5px;
+  padding: 8px;
+  max-width: 350px;
+  width: 100%;
+  background: var(--color-borde-hamburguesa);
+  border: 3px solid var(--color-fondo-principal);
+  color: var(--color-fondo-principal);
+  border-radius: 4px;
+  gap: 10px;
+}
+.ir-contacto {
+  display: flex;
+  width: 40%;
+  justify-content:space-around;
+  background: var(--color-fondo-principal);
+  color: var(--color-borde-hamburguesa);
+  font-size: 15px;
 }
