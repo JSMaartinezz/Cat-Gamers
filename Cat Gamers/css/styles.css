@@ -311,7 +311,7 @@ footer hr {
   font-size: 12px;
   background-color: #7c7c7c;
   width: 100%;
-  margin: 3px;
+  margin: 0px;
   padding: 12px;
   gap: 10px;
 }
@@ -338,6 +338,7 @@ footer img {
 .contacto-footer {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: flex-start;
   padding: 6px;
   gap: 10px;
@@ -345,6 +346,7 @@ footer img {
 .redes-sociales {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: flex-start;
   padding: 6px;
   gap: 10px;
