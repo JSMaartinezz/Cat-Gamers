@@ -1,0 +1,19 @@
+:root {
+    --color-fondo-principal: #F5EBE0;
+    --color-texto-fondo: #2C1B17;
+    --color-borde-hamburguesa: #94726b;
+    --color-texto-fondo-rgb: 44, 27, 23;
+    --color-primario: #E76F51;
+    --color-secundario: #2A9D8F;
+    --color-tarjetas-contenedores: #FFFFFF;
+    --color-fondo-gradiante: rgba(143, 95, 59, 1);
+    --color-fondo-gradiante-dorado: rgba(254, 208, 127, 1);
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.footer-tabla {
+    border-collapse: collapse;
+}
