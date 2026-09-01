@@ -14,6 +14,27 @@
     margin: 0;
     padding: 0;
 }
-.footer-tabla {
+.titulo-menu {
+    background: var(--color-borde-hamburguesa);
+    color: var(--color-fondo-principal);
+}
+.tabla-carta {
+    margin: auto;
+    max-width: 500px;
+    width: 95%;
+    border: 3px solid var(--color-borde-hamburguesa);
     border-collapse: collapse;
+}
+th, td {
+    border: 3px solid var(--color-borde-hamburguesa);
+    padding: 5px;
+}
+.fila-categoria {
+    background-color: var(--color-fondo-principal);
+    color: var(--color-texto-fondo);
+}
+.footer-tabla {
+    text-align: center;
+    background-color: var(--color-borde-hamburguesa);
+    color: var(--color-fondo-principal);
 }
