@@ -4,27 +4,69 @@
     "nombre": "Rascador Torre Arcade",
     "precio": 45.99,
     "categoria": "muebles",
-    "imagen": "https://cataas.com/cat?width=400&height=300"
+    "imagen": "assets/img/rascador-retro-arcade.png"
   },
   {
     "id": 2,
     "nombre": "Juguete Ratón Pixel LED",
     "precio": 12.50,
     "categoria": "juguetes",
-    "imagen": "https://cataas.com/cat?width=401&height=300"
+    "imagen": "assets/img/nombre-de-tu-imagen.png"
   },
   {
     "id": 3,
     "nombre": "Pienso Gourmet 'Level Up' 2kg",
     "precio": 18.90,
     "categoria": "comida",
-    "imagen": "https://cataas.com/cat?width=402&height=300"
+    "imagen": "assets/img/nombre-de-tu-imagen.png"
   },
   {
     "id": 4,
     "nombre": "Cama Game Boy Ultra-Soft",
     "precio": 32.00,
     "categoria": "muebles",
-    "imagen": "https://cataas.com/cat?width=403&height=300"
+    "imagen": "assets/img/nombre-de-tu-imagen.png"
+  },
+  {
+    "id": 5,
+    "nombre": "Snacks Vitalidad 'Seta HP' (100g)",
+    "precio": 4.50,
+    "categoria": "comida",
+    "imagen": "assets/img/nombre-de-tu-imagen.png"
+  },
+  {
+    "id": 6,
+    "nombre": "Fuente de Agua Automática 'Mana Fountain'",
+    "precio": 27.99,
+    "categoria": "accesorios",
+    "imagen": "assets/img/nombre-de-tu-imagen.png"
+  },
+  {
+    "id": 7,
+    "nombre": "Cepillo Masajeador 'Cat Shield'",
+    "precio": 9.99,
+    "categoria": "higiene",
+    "imagen": "assets/img/nombre-de-tu-imagen.png"
+  },
+  {
+    "id": 8,
+    "nombre": "Collar Ajustable con Cascabel 'Escudo Hyliano'",
+    "precio": 8.50,
+    "categoria": "accesorios",
+    "imagen": "assets/img/nombre-de-tu-imagen.png"
+  },
+  {
+    "id": 9,
+    "nombre": "Multivitamínico en Pasta 'Poción de Salud'",
+    "precio": 14.20,
+    "categoria": "salud",
+    "imagen": "assets/img/nombre-de-tu-imagen.png"
+  },
+  {
+    "id": 10,
+    "nombre": "Túnel de Juego 'Tubo Mario Bros'",
+    "precio": 21.50,
+    "categoria": "juguetes",
+    "imagen": "assets/img/nombre-de-tu-imagen.png"
   }
 ]
