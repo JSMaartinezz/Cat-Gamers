@@ -49,6 +49,8 @@ img {
 }
 h2 {
     margin: auto;
+    font-size: 20px;
+    padding: 6px;
 }
 li {
     padding: 10px;

@@ -4,69 +4,79 @@
     "nombre": "Rascador Torre Arcade",
     "precio": 45.99,
     "categoria": "muebles",
-    "imagen": "assets/img/rascador-retro-arcade.png"
+    "imagen": "assets/img/rascador-retro-arcade.png",
+    "descripcion": "Rascador Torre Arcade: Rascador de sisal con diseño arcade retro y cueva integrada para descanso."
   },
   {
     "id": 2,
     "nombre": "Juguete Ratón Pixel LED",
     "precio": 12.50,
     "categoria": "juguetes",
-    "imagen": "assets/img/nombre-de-tu-imagen.png"
+    "imagen": "assets/img/raton-productos.png",
+    "descripcion": "Juguete Ratón Pixel LED: Ratón interactivo con luces LED intermitentes que estimulan el instinto de caza."
   },
   {
     "id": 3,
     "nombre": "Pienso Gourmet 'Level Up' 2kg",
     "precio": 18.90,
     "categoria": "comida",
-    "imagen": "assets/img/nombre-de-tu-imagen.png"
+    "imagen": "assets/img/pienso-productos.png",
+    "descripcion": "Pienso Gourmet 'Level Up' 2kg: Alimentación completa rica en proteínas para mantener alta la barra de energía."
   },
   {
     "id": 4,
     "nombre": "Cama Game Boy Ultra-Soft",
     "precio": 32.00,
     "categoria": "muebles",
-    "imagen": "assets/img/nombre-de-tu-imagen.png"
+    "imagen": "assets/img/cama-boy-productos.png",
+    "descripcion": "Cama Game Boy Ultra-Soft: Cama mullida y térmica con forma de consola clásica para largas siestas."
   },
   {
     "id": 5,
     "nombre": "Snacks Vitalidad 'Seta HP' (100g)",
     "precio": 4.50,
     "categoria": "comida",
-    "imagen": "assets/img/nombre-de-tu-imagen.png"
+    "imagen": "assets/img/pienso-seta-productos.png",
+    "descripcion": "Snacks Vitalidad 'Seta HP' (100g): Premios nutritivos de pollo y salmón para recuperar salud al instante."
   },
   {
     "id": 6,
-    "nombre": "Fuente de Agua Automática 'Mana Fountain'",
+    "nombre": "Fuente de Agua Automática",
     "precio": 27.99,
     "categoria": "accesorios",
-    "imagen": "assets/img/nombre-de-tu-imagen.png"
+    "imagen": "assets/img/bebedero-productos.png",
+    "descripcion": "Fuente de Agua Automática 'Mana Fountain': Fuente con filtro de carbón activo que mantiene el agua fresca y circulando."
   },
   {
     "id": 7,
     "nombre": "Cepillo Masajeador 'Cat Shield'",
     "precio": 9.99,
     "categoria": "higiene",
-    "imagen": "assets/img/nombre-de-tu-imagen.png"
+    "imagen": "assets/img/rascador-productos.png",
+    "descripcion": "Cepillo Masajeador 'Cat Shield': Cepillo ergonómico de silicona para eliminar el pelo muerto con suavidad."
   },
   {
     "id": 8,
-    "nombre": "Collar Ajustable con Cascabel 'Escudo Hyliano'",
+    "nombre": "Collar 'Escudo Hyliano'",
     "precio": 8.50,
     "categoria": "accesorios",
-    "imagen": "assets/img/nombre-de-tu-imagen.png"
+    "imagen": "assets/img/collar-hyliano-productos.png",
+    "descripcion": "Collar Ajustable con Cascabel 'Escudo Hyliano': Collar de alta durabilidad con cierre de seguridad anti-enganche"
   },
   {
     "id": 9,
     "nombre": "Multivitamínico en Pasta 'Poción de Salud'",
     "precio": 14.20,
     "categoria": "salud",
-    "imagen": "assets/img/nombre-de-tu-imagen.png"
+    "imagen": "assets/img/pocion-productos.png",
+    "descripcion": "Multivitamínico en Pasta 'Poción de Salud': Suplemento sabroso para reforzar defensas y mantener el pelaje brillante."
   },
   {
     "id": 10,
-    "nombre": "Túnel de Juego 'Tubo Mario Bros'",
+    "nombre": "Tubo Mario Bros",
     "precio": 21.50,
     "categoria": "juguetes",
-    "imagen": "assets/img/nombre-de-tu-imagen.png"
+    "imagen": "assets/img/tubo-productos.png",
+    "descripcion": "Túnel de Juego 'Tubo Mario Bros': Túnel flexible y plegable con salidas superiores para juego dinámico."
   }
 ]
